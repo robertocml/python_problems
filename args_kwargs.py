@@ -17,9 +17,9 @@ ejemplo(1, 2, 3, 4, 5, 6, 7)
 
 
 
-def sumar( *numeros ):
+def sumar( *args ):
     total = 0
-    for numero in numeros:
+    for numero in args:
         total += numero
     return total
 
